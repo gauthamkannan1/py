@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int ar1[50],ar2[50],ar3[100];
 int m,n,i,j,k=0;
@@ -55,5 +55,4 @@ for(i=0;i<k;i++)
 {
 printf("%d",ar3[i]);
 }
-return 0;
 }
