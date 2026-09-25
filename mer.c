@@ -36,6 +36,15 @@ a3[k]=a2[j];
 j++;
 k++;
 }}
+if(j>=n)
+{
+  while(i<m)
+    {
+      a3[k]=a1[i];
+      i++;
+      k++;
+        }
+}
 for(i=0;i<k;i++)
 printf("%d",a3[i]);
 }
